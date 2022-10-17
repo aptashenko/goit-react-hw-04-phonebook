@@ -1,0 +1,15 @@
+.item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.button {
+    background-color: transparent;
+    border-radius: 5px;
+    border: 0.5px solid gray;
+    cursor: pointer;
+}
